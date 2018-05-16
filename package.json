@@ -1,0 +1,14 @@
+{
+  "name": "twiz-server-phaseutils",
+  "version": "1.0.0",
+  "description": "extends manipulations with phases",
+  "main": "src/phaseUtils.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gits2501",
+  "license": "MIT"
+}
