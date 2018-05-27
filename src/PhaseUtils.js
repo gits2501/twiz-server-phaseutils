@@ -20,6 +20,11 @@
             if(s.apiRun) this.saved.apiRun = s.apiRun;
          }
 
+         this.change = function(c){                          // change phases and runs
+            this.changePhase(c);
+            this.changePhaseRun(c);
+         }
+         
          this.changePhase = function(c){                     // change phases
             if(c.legPhase) this.legPhase = c.legPhase;   
             if(c.apiPhase) this.apiPhase = c.apiPhase
